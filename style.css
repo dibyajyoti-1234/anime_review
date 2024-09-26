@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-section {
+    flex: 1;
+    padding: 40px;
+}
+
+.form-section h2 {
+    color: #fa5a47;
+    font-size: 24px;
+}
+
+.form-section p {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkbox-group input {
+    margin-right: 10px;
+}
+
+.checkbox-group label {
+    font-size: 12px;
+    color: #666;
+}
+
+.sign-up, .sign-in {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.sign-up {
+    background-color: #fa5a47;
+    color: white;
+}
+
+.sign-in {
+    background-color: #f4f4f4;
+    color: #fa5a47;
+}
+
+.social-login {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-login p {
+    font-size: 12px;
+    color: #666;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.image-section {
+    flex: 1;
+    background: linear-gradient(to right, #ff7849, #fd3a69);
+    border-radius: 0 20px 20px 0;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    position: relative;
+}
+
+.image-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.image-section p {
+    font-size: 14px;
+}
+
+.anime-image {
+    width: 400px;
+    height: 500px;
+    margin-top: 20px;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
